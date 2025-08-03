@@ -19,15 +19,7 @@
             font-size: 2rem;
         }
 
-        section {
-            width: 95%;
-            height: 300px;
-            margin-top: 1rem;
-            margin-left: 1rem;
-    
-
-            position: relative;
-        }
+        .top {}
 
         .actions {
             display: flex;
@@ -44,6 +36,7 @@
             border-radius: 15px;
             text-align: center;
             width: 30%;
+
         }
 
         button:hover {
@@ -52,54 +45,95 @@
 
         }
 
-        .side {
+
+        img {
+            max-inline-size: 100%;
+            display: block;
+
+        }
+
+        .img-fluid {}
 
 
-            height: 300px;
-            width: 400px;
-            position:absolute ;
+
+
+
+        .two {}
+
+        .see {
+            text-align: center;
+        }
+
+        .other {
+            width: 15rem;
+            height: 15rem;
+            position: absolute;
             right: 0;
             top: 0;
 
 
+
         }
 
-        img {
+
+        .all {
+            background-color: #000;
+            width: 25rem;
+            height: 15.625rem;
+
+        }
+
+        .general {}
+
+        .okay {
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        .second {
             width: 100%;
-            height: 100%;
+        }
+
+        first-img {
+            width: 100%;
+
+
+        }
+
+        .hey {
+            width: 50%;
+            height: 250px;
+
+
+
+
+        }
+
+        .hi {
+            width: 90vw;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            margin: 0 auto;
+
+
+        }
+        .spacing{
+            width:100%;
+            height: 350px;
+            display:block ;
             object-fit: cover;
             
-
-
-
-
-
-
-
-
         }
-
-        .two {
-            position: relative;
-
-
+        .vid-container{
+            width: 100%;
+            border: 4px solid black;
         }
-
-        .see {
-            width: 60%;
-        }
+        
+           
+        
     </style>
     <header>
+        <h1 class="logo"><span class="color-1">Aanjoola</span><span class="color-2">Restaurant</span></h1>
         <nav>
-            <h1 class="design"><span class="terrace">Aanjoola</span> <span class="calm">Restaurant</span></h1>
-            <ul class="sidebar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Order</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-
-
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
@@ -109,21 +143,13 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div class="two">
-            <div>
-                <h2 class="see"><span class="indent">A</span><span class="others">anjoola Restaurant is a mixture of
-                        luxury and taste specialized in catering for your needs.</span> </h2>
-            </div>
-            <div class="actions">
-                <button type="submit">Order Now</button>
-                <button type="submit">view menu</button>
-            </div>
-            <div class="side">
-                <img src="/images/IMG_3594.JPG" alt="a ">
-            </div>
-        </div>
-    </section>
+   <section>
+    
+    <video class="spacing" autoplay loop >
+        <!-- <source src="/videos/33244-396487914_small.mp4" type="video/mp4"> -->
+    </video>
+   </section>
+
 
 
 </body>
