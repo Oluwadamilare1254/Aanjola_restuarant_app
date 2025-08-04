@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=deivce-width , intial-scale=1.0">
@@ -11,121 +10,42 @@
 
 <body>
     <style>
-        .indent {
-            font-size: 4rem;
+        .sec-1{
+        
         }
 
-        .others {
-            font-size: 2rem;
-        }
-
-        .top {}
-
-        .actions {
-            display: flex;
-            width: 60%;
-            height: 50px;
-            justify-content: center;
-            gap: 40px;
-        }
-
-        button {
-            background-color: #2BC0E4;
-            border: 2px solid transparent;
-            font-size: 1.3rem;
-            border-radius: 15px;
-            text-align: center;
-            width: 30%;
-
-        }
-
-        button:hover {
-            background-color: chocolate;
-
-
-        }
-
-
-        img {
-            max-inline-size: 100%;
-            display: block;
-
-        }
-
-        .img-fluid {}
-
-
-
-
-
-        .two {}
-
-        .see {
-            text-align: center;
-        }
-
-        .other {
-            width: 15rem;
-            height: 15rem;
-            position: absolute;
-            right: 0;
-            top: 0;
-
-
-
-        }
-
-
-        .all {
-            background-color: #000;
-            width: 25rem;
-            height: 15.625rem;
-
-        }
-
-        .general {}
-
-        .okay {
-            text-align: center;
-            font-size: 4rem;
-        }
-
-        .second {
-            width: 100%;
-        }
-
-        first-img {
-            width: 100%;
-
-
-        }
-
-        .hey {
-            width: 50%;
-            height: 250px;
-
-
-
-
-        }
-
-        .hi {
-            width: 90vw;
-            border: 1px solid rgba(0, 0, 0, 0.5);
-            margin: 0 auto;
-
-
-        }
         .spacing{
             width:100%;
-            height: 350px;
+            height: 400px;
             display:block ;
             object-fit: cover;
+            position: absolute;
+            top:0;
+            left: 0;
+            z-index:-1;
+            pointer-events:none;
+            
             
         }
         .vid-container{
             width: 100%;
             border: 4px solid black;
+        }
+        .text-display{
+            
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    font-size: 2rem;
+    color:;
+    letter-spacing: 0.3rem;
+    
+            
+            
+            
         }
         
            
@@ -143,12 +63,14 @@
             </ul>
         </nav>
     </header>
-   <section>
-    
+   <section class="sec-1">
     <video class="spacing" autoplay loop >
-        <!-- <source src="/videos/33244-396487914_small.mp4" type="video/mp4"> -->
+        <source src="/videos/33244-396487914_small.mp4" type="video/mp4">
+      
     </video>
+      <h2 class="text-display"> welcome to Aanjoola Restaurant</h2>
    </section>
+   
 
 
 
